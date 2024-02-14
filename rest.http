@@ -1,0 +1,11 @@
+@api_url=http://localhost:3000/api/v1
+
+### GET Welcome
+GET {{api_url}}
+
+### GET /rgb-to-hex?red=255&green=136&blue=0
+GET {{api_url}}/rgb-to-hex?red=255&green=136&blue=0
+
+### GET /hex-to-rgb
+GET {{api_url}}/hex-to-rgb
+
